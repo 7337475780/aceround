@@ -31,7 +31,7 @@ const FormField = ({
         <FormLabel className="label">{label}</FormLabel>
         <FormControl>
           <Input
-            className="input"
+            className="input "
             type={type}
             placeholder={placeholder}
             {...field}
