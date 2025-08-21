@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "AceRound",
   description:
     "AceRound is your personal AI-powered mock interview agent. Practice real-world technical and behavioral interviews with instant feedback, performance insights, and tailored coaching to ace your next round.",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({

@@ -8,6 +8,7 @@ const DisplayTechIcons = async ({ techStack }: TechIconProps) => {
     <div className="flex flex-row ">
       {techIcons.slice(0, 3).map(({ tech, url }, idx) => (
         <div
+          key={idx}
           className={cn(
             "relative group bg-dark-300 rounded-full p-2 flex-center",
             idx >= 1 && "-ml-3"
